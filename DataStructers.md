@@ -14,4 +14,9 @@
 n + (n-1) + (n-2) + (n-3) + (n-4) + (n-5) = 6n - 15 ==> n
 Big-O Notation: O(n)
 
+Time Complexity
+- Average Case: O(n/2)
+- Worst Case: O(n)
+- Best Case: O(1)
+
 
