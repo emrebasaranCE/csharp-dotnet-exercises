@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("degisken_odevi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d181021cfd3d4b4762b7f94e8fc3202d03e56eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ace9d53d2a30d2c6e96345c81619b734d95b6e32")]
 [assembly: System.Reflection.AssemblyProductAttribute("degisken_odevi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("degisken_odevi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
