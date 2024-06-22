@@ -1,0 +1,15 @@
+d:\Patika.dev_C#\operator_odevleri\bin\Debug\net8.0\operator_odevleri.exe
+d:\Patika.dev_C#\operator_odevleri\bin\Debug\net8.0\operator_odevleri.deps.json
+d:\Patika.dev_C#\operator_odevleri\bin\Debug\net8.0\operator_odevleri.runtimeconfig.json
+d:\Patika.dev_C#\operator_odevleri\bin\Debug\net8.0\operator_odevleri.dll
+d:\Patika.dev_C#\operator_odevleri\bin\Debug\net8.0\operator_odevleri.pdb
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.GeneratedMSBuildEditorConfig.editorconfig
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.AssemblyInfoInputs.cache
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.AssemblyInfo.cs
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.csproj.CoreCompileInputs.cache
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.sourcelink.json
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.dll
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\refint\operator_odevleri.dll
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.pdb
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\operator_odevleri.genruntimeconfig.cache
+d:\Patika.dev_C#\operator_odevleri\obj\Debug\net8.0\ref\operator_odevleri.dll
