@@ -1,0 +1,15 @@
+D:\Patika.dev_C#\degisken_odevi\bin\Debug\net8.0\degisken_odevi.exe
+D:\Patika.dev_C#\degisken_odevi\bin\Debug\net8.0\degisken_odevi.deps.json
+D:\Patika.dev_C#\degisken_odevi\bin\Debug\net8.0\degisken_odevi.runtimeconfig.json
+D:\Patika.dev_C#\degisken_odevi\bin\Debug\net8.0\degisken_odevi.dll
+D:\Patika.dev_C#\degisken_odevi\bin\Debug\net8.0\degisken_odevi.pdb
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.AssemblyInfoInputs.cache
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.AssemblyInfo.cs
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.csproj.CoreCompileInputs.cache
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.sourcelink.json
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.dll
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\refint\degisken_odevi.dll
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.pdb
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\degisken_odevi.genruntimeconfig.cache
+D:\Patika.dev_C#\degisken_odevi\obj\Debug\net8.0\ref\degisken_odevi.dll
