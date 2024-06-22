@@ -34,6 +34,27 @@ namespace Program
             System.Console.WriteLine($"f: {f}\nlong1: {long1}\nd:{d}\nde:{de}\nc:{c}\nstr:{str}");
 
 
+            DateTime dt = DateTime.Now;
+
+            object object1 = "z";
+
+            System.Console.WriteLine($"dt: {dt}\nobject1: {object1}");
+
+            string str12 = string.Empty;
+
+            str12 = "Yur mum";
+
+            int number1 = 25;
+            string number2 = "30";
+
+            // converting 
+            int number3 = number1 + Convert.ToInt32(number2);
+
+            System.Console.WriteLine(number3);
+
+            string datetime_string = DateTime.Now.ToString("dd.MM.yyyy - hh:mm:ss");
+
+            System.Console.WriteLine(datetime_string);
 
 
 
