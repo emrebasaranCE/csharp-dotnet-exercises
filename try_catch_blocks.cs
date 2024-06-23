@@ -1,13 +1,14 @@
 using System;
 
-namespace Program
+namespace Try_catch_namespace
 {
     class Test2
     {
-        static void Main(string[] args)
+        public static void not_main()
         {
             try
             {
+                System.Console.WriteLine("Please enter a number: ");
                 int input_number1 = Convert.ToInt32(Console.ReadLine());
                 System.Console.WriteLine($"User entered: {input_number1}");
             }
