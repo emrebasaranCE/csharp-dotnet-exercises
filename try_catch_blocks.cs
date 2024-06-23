@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace Program
 {
-    class Test
+    class Test2
     {
-        static void not_main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
