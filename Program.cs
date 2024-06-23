@@ -3,6 +3,8 @@ using Try_catch_namespace;
 using If_else_namepace;
 using Switch_case_namespace;
 using For_while_namespace;
+using Two_while_namespace;
+
 
 namespace Program
 {
@@ -12,7 +14,7 @@ namespace Program
         {
             // try catch examples.
             // Try_catch_namespace.Test2.not_main();
-        
+
             // if else examples.
             // If_else_namepace.Test2.not_main();
 
@@ -21,6 +23,9 @@ namespace Program
 
             // for - while example
             // For_while_namespace.Test2.not_main();
+
+            // two while example
+            // Two_while_namespace.Test2.not_main();
         }
     }
 }
