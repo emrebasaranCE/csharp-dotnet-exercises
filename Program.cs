@@ -2,7 +2,7 @@
 using Try_catch_namespace;
 using If_else_namepace;
 using Switch_case_namespace;
-
+using For_while_namespace;
 
 namespace Program
 {
@@ -18,6 +18,9 @@ namespace Program
 
             // Switch - case example
             // Switch_case_namespace.Test2.not_main();
+
+            // for - while example
+            // For_while_namespace.Test2.not_main();
         }
     }
 }
