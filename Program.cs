@@ -1,6 +1,8 @@
 ﻿using System;
 using Try_catch_namespace;
 using If_else_namepace;
+using Switch_case_namespace;
+
 
 namespace Program
 {
@@ -13,7 +15,9 @@ namespace Program
         
             // if else examples.
             // If_else_namepace.Test2.not_main();
-        
+
+            // Switch - case example
+            // Switch_case_namespace.Test2.not_main();
         }
     }
 }
