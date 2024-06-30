@@ -1,0 +1,17 @@
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\get_user_pass_from_urlUpass - c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
