@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|d:\\get_user_pass_from_urlupass - c#\\winformsapp1\\winformsapp1\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|d:\\get_user_pass_from_urlupass - c#\\winformsapp1\\winformsapp1\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7782E86-C937-4097-BF7D-5E3944EA07B0}|WinFormsApp1\\WinFormsApp1.csproj|D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\winformsapp1\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\Variables.cs",
               "ToolTip": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Variables.cs",
               "RelativeToolTip": "WinFormsApp1\\Variables.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T17:58:12.062Z"
             },
@@ -48,35 +48,33 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
               "ToolTip": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvxcAAAAxAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywBgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T17:41:09.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T17:41:09.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Functions.cs",
               "DocumentMoniker": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Functions.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Functions.cs",
               "ToolTip": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Functions.cs",
               "RelativeToolTip": "WinFormsApp1\\Functions.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAA6wDsAAAAhAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAywEcAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T17:33:18.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
               "ToolTip": "D:\\get_user_pass_from_urlUpass - c#\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T17:32:06.894Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-30T17:32:06.894Z"
             }
           ]
         }

@@ -36,9 +36,10 @@
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 12F);
             button1.Location = new Point(246, 72);
             button1.Name = "button1";
-            button1.Size = new Size(285, 23);
+            button1.Size = new Size(285, 38);
             button1.TabIndex = 0;
             button1.Text = "Load combos";
             button1.UseVisualStyleBackColor = true;
@@ -46,17 +47,19 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(339, 139);
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(191, 146);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(392, 29);
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button2
             // 
-            button2.Location = new Point(321, 222);
+            button2.Font = new Font("Segoe UI", 12F);
+            button2.Location = new Point(310, 223);
             button2.Name = "button2";
-            button2.Size = new Size(147, 23);
+            button2.Size = new Size(147, 38);
             button2.TabIndex = 2;
             button2.Text = "Start the program";
             button2.UseVisualStyleBackColor = true;
@@ -65,9 +68,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(321, 267);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(321, 279);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15);
+            label1.Size = new Size(0, 21);
             label1.TabIndex = 3;
             // 
             // Form1

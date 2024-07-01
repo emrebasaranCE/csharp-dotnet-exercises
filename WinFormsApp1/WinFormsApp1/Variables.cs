@@ -10,6 +10,7 @@ namespace WinFormsApp1_Variables
     internal class Variables
     {
         public static string input_to_search_in_url;
+        public static string current_input_to_search_in_url;
 
         public static List<string> files_path_list = new List<string>();
 

@@ -19,6 +19,7 @@ namespace WinFormsApp1
         {
             if ((textBox1.Text != null) && (textBox1.Text != "") && (Variables.files_path_list.Count != 0))
             {
+                label1.Text = "Program started.";
                 Functions functions = new Functions();
                 functions.find_elements_in_files();
                 label1.Text = "Program ended...";
