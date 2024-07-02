@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using WinFormsApp1_Function;
 using WinFormsApp1_Variables;
 namespace WinFormsApp1
@@ -7,6 +8,7 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,7 +38,7 @@ namespace WinFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Variables.input_to_search_in_url = textBox1.Text;
+            Variables.input_to_search_in_url = textBox1.Text.Replace(" ", "");
         }
     }
 }

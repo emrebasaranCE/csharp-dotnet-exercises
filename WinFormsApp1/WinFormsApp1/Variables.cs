@@ -10,7 +10,10 @@ namespace WinFormsApp1_Variables
     internal class Variables
     {
         public static string input_to_search_in_url;
-        public static string current_input_to_search_in_url;
+        public static bool multiple_words_flag = false;
+
+        // if there is multiple words, use this variable
+        public static string[] different_words = [];
 
         public static List<string> files_path_list = new List<string>();
 
