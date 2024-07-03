@@ -16,39 +16,42 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            // try catch examples.
+            // try catch Examples
             // Try_catch_namespace.Test2.not_main();
 
-            // if else examples.
+            // if else Examples
             // If_else_namepace.Test2.not_main();
 
-            // Switch - case example
+            // Switch - case Examples
             // Switch_case_namespace.Test2.not_main();
 
-            // for - while example
+            // for - while Examples
             // For_while_namespace.Test2.not_main();
 
-            // two while example
+            // two while Examples
             // Two_while_namespace.Test2.not_main();
 
-            // array example
+            // array Examples
             // Arrays_namespace.Test2.not_main();
 
-            // array class example
+            // array class Examples
             // Arrays_class_namespace.Test2.not_main();
         
-            // methods example
+            // methods Examples
             // Methods_namespace.Test2.not_main();
 
-            // Metod Overload
+            // Metod Overload Examples
             // Method_overload_namespace.Test2.not_main();  
 
-            // Extensions and Recursive Methods.
+            // Extensions and Recursive Methods Examples
             // Extensions_and_Recursive_Namespace.Test2.not_main();
 
             // ODEV - 1
             // https://academy.patika.dev/tr/courses/csharp-101/12-odev-1
-            Odev_1_namespace.Test2.not_main();
+            // Odev_1_namespace.Test2.not_main();
+
+            // String Methods Examples
+            // String_namespace.Test2.not_main();
         }
     }
 }
