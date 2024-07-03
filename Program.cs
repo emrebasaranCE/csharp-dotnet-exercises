@@ -8,6 +8,7 @@ using Arrays_namespace;
 using Arrays_class_namespace;
 using Methods_namespace;
 using Method_overload_namespace;
+using Odev_1_namespace;
 
 namespace Program
 {
@@ -44,6 +45,10 @@ namespace Program
 
             // Extensions and Recursive Methods.
             // Extensions_and_Recursive_Namespace.Test2.not_main();
+
+            // ODEV - 1
+            // https://academy.patika.dev/tr/courses/csharp-101/12-odev-1
+            Odev_1_namespace.Test2.not_main();
         }
     }
 }
