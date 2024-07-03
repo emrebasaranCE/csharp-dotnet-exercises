@@ -7,7 +7,7 @@ using Two_while_namespace;
 using Arrays_namespace;
 using Arrays_class_namespace;
 using Methods_namespace;
-
+using Method_overload_namespace;
 
 namespace Program
 {
@@ -38,6 +38,9 @@ namespace Program
         
             // methods example
             // Methods_namespace.Test2.not_main();
+
+            // Metod Overload
+            Method_overload_namespace.Test2.not_main();
         }
     }
 }
