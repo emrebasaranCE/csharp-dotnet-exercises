@@ -13,15 +13,19 @@ namespace Odev_1_namespace
             switch(choice_from_user)
             {
                 case 1:
+                    // function for assignment 1
                     function_1();
                     break;
                 case 2:
+                    // function for assignment 2
                     function_2();
                     break;
                 case 3:
+                    // function for assignment 3
                     function_3();
                     break;
                 case 4:
+                    // function for assignment 4
                     function_4();
                     break;
                 default:
