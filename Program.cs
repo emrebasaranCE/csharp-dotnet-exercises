@@ -5,6 +5,8 @@ using Switch_case_namespace;
 using For_while_namespace;
 using Two_while_namespace;
 using Arrays_namespace;
+using Arrays_class_namespace;
+
 
 namespace Program
 {
@@ -28,7 +30,10 @@ namespace Program
             // Two_while_namespace.Test2.not_main();
 
             // array example
-            Arrays_namespace.Test2.not_main();
+            // Arrays_namespace.Test2.not_main();
+
+            // array class example
+            Arrays_class_namespace.Test2.not_main();
         }
     }
 }
