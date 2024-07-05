@@ -58,7 +58,7 @@ namespace Program
             // Datetime_math_namespace.Test2.not_main();
 
             // Generic Collections and Lists Examples
-            Generic_collections_namespace.Test2.not_main();
+            // Generic_collections_namespace.Test2.not_main();
         }
     }
 }
