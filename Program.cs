@@ -10,7 +10,7 @@ using Methods_namespace;
 using Method_overload_namespace;
 using Odev_1_namespace;
 using Datetime_math_namespace;
-
+using Generic_collections_namespace;
 namespace Program
 {
     class Test
@@ -56,6 +56,9 @@ namespace Program
 
             // DateTime and Math Examples
             // Datetime_math_namespace.Test2.not_main();
+
+            // Generic Collections and Lists Examples
+            Generic_collections_namespace.Test2.not_main();
         }
     }
 }
