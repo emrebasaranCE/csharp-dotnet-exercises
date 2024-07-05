@@ -9,6 +9,7 @@ using Arrays_class_namespace;
 using Methods_namespace;
 using Method_overload_namespace;
 using Odev_1_namespace;
+using Datetime_math_namespace;
 
 namespace Program
 {
@@ -52,6 +53,9 @@ namespace Program
 
             // String Methods Examples
             // String_namespace.Test2.not_main();
+
+            // DateTime and Math Examples
+            // Datetime_math_namespace.Test2.not_main();
         }
     }
 }
