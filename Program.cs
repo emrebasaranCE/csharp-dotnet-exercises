@@ -11,6 +11,8 @@ using Method_overload_namespace;
 using Odev_1_namespace;
 using Datetime_math_namespace;
 using Generic_collections_namespace;
+using ArrayList_namespaces;
+
 namespace Program
 {
     class Test
@@ -59,6 +61,9 @@ namespace Program
 
             // Generic Collections and Lists Examples
             // Generic_collections_namespace.Test2.not_main();
+
+            // ArrayList Example
+            ArrayList_namespaces.Test2.not_main();
         }
     }
 }
