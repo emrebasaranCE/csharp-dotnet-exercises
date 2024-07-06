@@ -12,6 +12,7 @@ using Odev_1_namespace;
 using Datetime_math_namespace;
 using Generic_collections_namespace;
 using ArrayList_namespaces;
+using Dictionary_namespace;
 
 namespace Program
 {
@@ -64,6 +65,9 @@ namespace Program
 
             // ArrayList Example
             // ArrayList_namespaces.Test2.not_main();
+
+            // Dictionary Example
+            // Dictionary_namespace.Test2.not_main();
         }
     }
 }
