@@ -63,7 +63,7 @@ namespace Program
             // Generic_collections_namespace.Test2.not_main();
 
             // ArrayList Example
-            ArrayList_namespaces.Test2.not_main();
+            // ArrayList_namespaces.Test2.not_main();
         }
     }
 }
