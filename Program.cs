@@ -52,8 +52,9 @@ namespace Program
             // Extensions and Recursive Methods Examples
             // Extensions_and_Recursive_Namespace.Test2.not_main();
 
-            // ODEV - 1
+
             // https://academy.patika.dev/tr/courses/csharp-101/12-odev-1
+            // ODEV - 1
             // Odev_1_namespace.Test2.not_main();
 
             // String Methods Examples
@@ -71,15 +72,16 @@ namespace Program
             // Dictionary Example
             // Dictionary_namespace.Test2.not_main();
 
-            // ODEV - 2 / Soru 1
+
             // https://academy.patika.dev/tr/courses/csharp-101/15-odev-2
+            // ODEV - 2 / Soru 1
             // koleksiyonlar_soru_1_namespace.Test2.not_main();
 
             // ODEV - 2 / Soru 2
             // koleksiyonlar_soru_2_namespace.Test2.not_main();
 
             // ODEV - 2 / Soru 3
-            koleksiyonlar_soru_3_namespace.Test2.not_main();
+            // koleksiyonlar_soru_3_namespace.Test2.not_main();
         }
     }
 }
