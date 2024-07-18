@@ -15,7 +15,7 @@ using ArrayList_namespaces;
 using Dictionary_namespace;
 using koleksiyonlar_soru_1_namespace;
 using koleksiyonlar_soru_2_namespace;
-
+using Constructor_namespace;
 namespace Program
 {
     class Test
@@ -82,6 +82,8 @@ namespace Program
 
             // ODEV - 2 / Soru 3
             // koleksiyonlar_soru_3_namespace.Test2.not_main();
+            
+            Constructor_namespace.Test2.not_main();
         }
     }
 }
