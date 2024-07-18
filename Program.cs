@@ -90,7 +90,7 @@ namespace Program
             // Constructor_namespace.Test2.not_main();
 
             // Encapsulation Example
-            Encapsulation_namespace.Test2.not_main();
+            // Encapsulation_namespace.Test2.not_main();
         }
     }
 }
