@@ -83,7 +83,9 @@ namespace Program
             // ODEV - 2 / Soru 3
             // koleksiyonlar_soru_3_namespace.Test2.not_main();
             
-            Constructor_namespace.Test2.not_main();
+
+            // Constructor Example
+            // Constructor_namespace.Test2.not_main();
         }
     }
 }
