@@ -76,7 +76,10 @@ namespace Program
             // koleksiyonlar_soru_1_namespace.Test2.not_main();
 
             // ODEV - 2 / Soru 2
-            koleksiyonlar_soru_2_namespace.Test2.not_main();
+            // koleksiyonlar_soru_2_namespace.Test2.not_main();
+
+            // ODEV - 2 / Soru 3
+            koleksiyonlar_soru_3_namespace.Test2.not_main();
         }
     }
 }
