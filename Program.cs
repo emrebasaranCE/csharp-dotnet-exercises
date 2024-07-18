@@ -16,6 +16,8 @@ using Dictionary_namespace;
 using koleksiyonlar_soru_1_namespace;
 using koleksiyonlar_soru_2_namespace;
 using Constructor_namespace;
+using Encapsulation_namespace;
+
 namespace Program
 {
     class Test
@@ -86,6 +88,9 @@ namespace Program
 
             // Constructor Example
             // Constructor_namespace.Test2.not_main();
+
+            // Encapsulation Example
+            Encapsulation_namespace.Test2.not_main();
         }
     }
 }
