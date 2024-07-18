@@ -14,6 +14,7 @@ using Generic_collections_namespace;
 using ArrayList_namespaces;
 using Dictionary_namespace;
 using koleksiyonlar_soru_1_namespace;
+using koleksiyonlar_soru_2_namespace;
 
 namespace Program
 {
@@ -70,9 +71,12 @@ namespace Program
             // Dictionary Example
             // Dictionary_namespace.Test2.not_main();
 
-            // ODEV - 2
+            // ODEV - 2 / Soru 1
             // https://academy.patika.dev/tr/courses/csharp-101/15-odev-2
-            koleksiyonlar_soru_1_namespace.Test2.not_main();
+            // koleksiyonlar_soru_1_namespace.Test2.not_main();
+
+            // ODEV - 2 / Soru 2
+            koleksiyonlar_soru_2_namespace.Test2.not_main();
         }
     }
 }
