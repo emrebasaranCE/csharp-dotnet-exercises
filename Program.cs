@@ -18,7 +18,7 @@ using koleksiyonlar_soru_2_namespace;
 using Constructor_namespace;
 using Encapsulation_namespace;
 using Static_namespace;
-
+using Enum_namespace;
 
 
 
@@ -99,7 +99,9 @@ namespace Program
             // Static Example
             // Static_namespace.Test2.not_main();
 
-            // a little test
+            // Enum Example
+            // Enum_namespace.Test2.not_main(); 
+            
         }
     }
 }
