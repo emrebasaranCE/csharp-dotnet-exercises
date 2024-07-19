@@ -17,6 +17,10 @@ using koleksiyonlar_soru_1_namespace;
 using koleksiyonlar_soru_2_namespace;
 using Constructor_namespace;
 using Encapsulation_namespace;
+using Static_namespace;
+
+
+
 
 namespace Program
 {
@@ -91,6 +95,9 @@ namespace Program
 
             // Encapsulation Example
             // Encapsulation_namespace.Test2.not_main();
+
+            // Static Example
+            // Static_namespace.Test2.not_main();
         }
     }
 }
