@@ -101,7 +101,6 @@ namespace Program
 
             // Enum Example
             // Enum_namespace.Test2.not_main(); 
-            
         }
     }
 }
