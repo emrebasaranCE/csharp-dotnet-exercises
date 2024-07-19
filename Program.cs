@@ -98,6 +98,8 @@ namespace Program
 
             // Static Example
             // Static_namespace.Test2.not_main();
+
+            // a little test
         }
     }
 }
