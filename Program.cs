@@ -20,10 +20,27 @@ namespace ProgramNamespace
             telephones.Add(default_tel_4);
             telephones.Add(default_tel_5);
 
-            foreach (Telephone tel in telephones)
+
+            while(1 == 1)
             {
-                tel.print_info();
+                Console.WriteLine("Please enter your choice");
+                
+                
             }
+        }
+
+        public void add_phone_number(List<Telephone> telephones)
+        {
+            Telephone new_acc = new Telephone();
+            
+            Console.WriteLine("Enter name: ");
+            new_acc.Name = Console.ReadLine();
+            Console.WriteLine("Enter last name: ");
+            new_acc.Last_name = Console.ReadLine();
+            Console.WriteLine("Enter phone number: ");
+            new_acc.Phone_number = Console.ReadLine();
+            
+            
         }
     }
 }

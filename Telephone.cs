@@ -18,6 +18,8 @@ namespace TestNamespace
             this.phone_number = phone_number;
         }
 
+        public Telephone(){}
+
         public void print_info()
         {
             Console.WriteLine($"User name: {this.name}");
