@@ -136,5 +136,62 @@ namespace Board_namespace
 
             return did_the_input_is_found;
         }
+
+        public Kart find_in_lists(string name_of_kart)
+        {
+            bool did_the_input_is_found;
+
+            Kart output_kart_1 = to_do_list.Find(x => x.Name == name_of_kart);
+            Kart output_kart_2 = in_progress_list.Find(x => x.Name == name_of_kart);
+            Kart output_kart_3 = done_list.Find(x => x.Name == name_of_kart);
+
+            if (output_kart_1 != null)
+            {
+                did_the_input_is_found = true;
+                return output_kart_1;
+            }
+            else if (output_kart_2 != null)
+            {
+                did_the_input_is_found = true;
+                return output_kart_2;
+            }
+            else if (output_kart_3 != null)
+            {
+                did_the_input_is_found = true;
+                return output_kart_3;
+            }
+
+            return null;
+        }
+
+        public void move_kart(string name_of_kart, int target_list)
+        {
+            Kart kart_to_move = find_in_lists(name_of_kart);
+
+            if (kart_to_move != null)
+            {
+                // for TODO
+                if (target_list == 1)
+                {
+                    remove_in_progress_element(kart_to_move);
+                    remove_done_element(kart_to_move);
+                    Add_to_do_element(kart_to_move);
+                }
+                // for IN PROGRESS
+                else if (target_list == 2)
+                {
+                    remove_to_do_element(kart_to_move);
+                    remove_done_element(kart_to_move);
+                    Add_in_progress_element(kart_to_move);
+                }
+                // for DONE
+                else if (target_list == 3)
+                {
+                    remove_to_do_element(kart_to_move);
+                    remove_in_progress_element(kart_to_move);
+                    Add_done_element(kart_to_move);
+                }
+            }
+        }
     }
 }

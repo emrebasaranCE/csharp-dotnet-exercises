@@ -7,8 +7,8 @@ namespace Kart_namespace
         private size_of_job _size;
         private int _assigned_to;
 
-        public string Name { get => _name; set => _name = value; }
-        public string Content { get => _content; set => _content = value; }
+        public string Name { get => _name; set => _name = value.Trim(); }
+        public string Content { get => _content; set => _content = value.Trim(); }
         internal size_of_job Size { get => _size; set => _size = value; }
         public int Assigned_to { get => _assigned_to; set => _assigned_to = value; }
 
