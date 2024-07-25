@@ -1,0 +1,15 @@
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\bin\Debug\net8.0\c#_projects.exe
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\bin\Debug\net8.0\c#_projects.deps.json
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\bin\Debug\net8.0\c#_projects.runtimeconfig.json
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\bin\Debug\net8.0\c#_projects.dll
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\bin\Debug\net8.0\c#_projects.pdb
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.AssemblyInfoInputs.cache
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.AssemblyInfo.cs
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.csproj.CoreCompileInputs.cache
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.sourcelink.json
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.dll
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\refint\c#_projects.dll
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.pdb
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\c#_projects.genruntimeconfig.cache
+c:\Users\HUAWEI\OneDrive\Desktop\c#_projects\obj\Debug\net8.0\ref\c#_projects.dll
