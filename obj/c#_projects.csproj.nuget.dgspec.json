@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj": {}
+    "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj": {
+    "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
+        "projectUniqueName": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
         "projectName": "c#_projects",
-        "projectPath": "c:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
+        "projectPath": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
         "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\obj\\",
+        "outputPath": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
