@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\": {}
+    "C:\\Users\\emreb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
+      "projectUniqueName": "D:\\Patika.dev_C#\\c#_projeler\\csharp_example_projects\\c#_projects.csproj",
       "projectName": "c#_projects",
-      "projectPath": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\c#_projects.csproj",
-      "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\OneDrive\\Desktop\\c#_projects\\obj\\",
+      "projectPath": "D:\\Patika.dev_C#\\c#_projeler\\csharp_example_projects\\c#_projects.csproj",
+      "packagesPath": "C:\\Users\\emreb\\.nuget\\packages\\",
+      "outputPath": "D:\\Patika.dev_C#\\c#_projeler\\csharp_example_projects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\emreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
