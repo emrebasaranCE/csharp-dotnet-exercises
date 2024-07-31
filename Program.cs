@@ -5,7 +5,7 @@ using Daire_Cizme_ns;
 using String_example_ns;
 using Ters_Karakter_ns;
 using Alan_Hesapla_ns;
-
+using Integer_Example_ns;
 
 namespace Program_ns
 {
@@ -29,7 +29,10 @@ namespace Program_ns
             // Ters_Karakter_ns.Program.not_main();
 
             // Alan_Hesapla Example
-            Alan_Hesapla_ns.Program.not_main();
+            // Alan_Hesapla_ns.Program.not_main();
+
+            // Integer_Example
+            // Integer_Example_ns.Program.not_main();
         }
     }
 }
