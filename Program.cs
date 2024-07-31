@@ -2,6 +2,8 @@
 using Ortalama_Hesapla_ns;
 using Ucgen_Cizme_ns;
 using Daire_Cizme_ns;
+using String_example_ns;
+
 
 namespace Program_ns
 {
@@ -18,7 +20,11 @@ namespace Program_ns
 
 
             // Daire Cizme Example
-            Daire_Cizme_ns.Program.not_main();
+            // Daire_Cizme_ns.Program.not_main();
+
+            
+            // String Example
+            // String_example_ns.Program.not_main();
         }
     }
 }
