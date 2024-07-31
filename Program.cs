@@ -3,7 +3,7 @@ using Ortalama_Hesapla_ns;
 using Ucgen_Cizme_ns;
 using Daire_Cizme_ns;
 using String_example_ns;
-
+using Ters_Karakter_ns;
 
 namespace Program_ns
 {
@@ -14,17 +14,17 @@ namespace Program_ns
             // Ortalama Hesapla Example
             // Ortalama_Hesapla_ns.Test.not_main();
 
-
             // Ucgen Cizme Example
             // Ucgen_Cizme_ns.Test.not_main();
 
-
             // Daire Cizme Example
-            // Daire_Cizme_ns.Program.not_main();
+            // Daire_Cizme_ns.Program.not_main();            
 
-            
             // String Example
             // String_example_ns.Program.not_main();
+
+            // Ters_Karakter Example
+            Ters_Karakter_ns.Program.not_main();
         }
     }
 }
