@@ -4,6 +4,8 @@ using Ucgen_Cizme_ns;
 using Daire_Cizme_ns;
 using String_example_ns;
 using Ters_Karakter_ns;
+using Alan_Hesapla_ns;
+
 
 namespace Program_ns
 {
@@ -24,7 +26,10 @@ namespace Program_ns
             // String_example_ns.Program.not_main();
 
             // Ters_Karakter Example
-            Ters_Karakter_ns.Program.not_main();
+            // Ters_Karakter_ns.Program.not_main();
+
+            // Alan_Hesapla Example
+            Alan_Hesapla_ns.Program.not_main();
         }
     }
 }
