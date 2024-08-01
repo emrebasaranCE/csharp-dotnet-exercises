@@ -8,7 +8,7 @@ using Alan_Hesapla_ns;
 using Integer_Example_ns;
 using Mutlak_Kare_Alma_ns;
 using Karakter_Degistirme_ns;
-
+using Sessiz_Harf_ns;
 namespace Program_ns
 {
     class Program
@@ -40,7 +40,10 @@ namespace Program_ns
             // Mutlak_Kare_Alma_ns.Program.not_main();
 
             // Karakter Degistirme
-            Karakter_Degistirme_ns.Program.not_main();
+            // Karakter_Degistirme_ns.Program.not_main();
+
+            // Sessiz Harf
+            Sessiz_Harf_ns.Program.not_main();
         }
     }
 }
