@@ -43,7 +43,9 @@ namespace Program_ns
             // Karakter_Degistirme_ns.Program.not_main();
 
             // Sessiz Harf
-            Sessiz_Harf_ns.Program.not_main();
+            // Sessiz_Harf_ns.Program.not_main();
+
+            
         }
     }
 }
