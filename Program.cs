@@ -6,6 +6,8 @@ using String_example_ns;
 using Ters_Karakter_ns;
 using Alan_Hesapla_ns;
 using Integer_Example_ns;
+using Mutlak_Kare_Alma_ns;
+
 
 namespace Program_ns
 {
@@ -33,6 +35,9 @@ namespace Program_ns
 
             // Integer_Example
             // Integer_Example_ns.Program.not_main();
+
+            // Mutlak Kare Alma
+            // Mutlak_Kare_Alma_ns.Program.not_main();
         }
     }
 }
