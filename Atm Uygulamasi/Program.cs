@@ -13,5 +13,14 @@ namespace AtmApplication
             Console.WriteLine("Enter your pin");
             int customer_pin = Convert.ToInt32(Console.ReadLine());
         }
+
+        public void CreateDirectoryForEOD()
+        {
+            string path = "End Of Day Reports";
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+        }
     }
 }
