@@ -14,6 +14,18 @@ namespace CustomerNamespace
             customers.Add(new Customer { Card_id = "1111", Pin = 1111, Balance = 3000 });
         }
         // end of pre-defined customers
+
+        public Customer CheckCustomersCrediantials(string entered_card_id, int entered_pin)
+        {
+            foreach (Customer current_customer in customers)
+            {
+                if (current_customer.Card_id == entered_card_id && current_customer.Pin == entered_pin)
+                {
+                    return current_customer;
+                }
+            }
+            return null;
+        }
     }
 
     class Customer
@@ -46,6 +58,21 @@ namespace CustomerNamespace
         {
             get { return balance; }
             set { balance = value; }
+        }
+
+        public void UpdateBalance(string card_id, int amount, string transaction_type)
+        {
+
+            if (transaction_type == "Deposit")
+            {
+                this.Balance += amount;
+                Console.WriteLine("Your new balance is: " + this.Balance);
+            }
+            else if (transaction_type == "Withdraw")
+            {
+                this.Balance -= amount;
+                Console.WriteLine("Your new balance is: " + this.Balance);
+            }
         }
     }
 }

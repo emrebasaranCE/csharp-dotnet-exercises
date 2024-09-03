@@ -25,7 +25,7 @@ namespace TranscationNamespace
             string path = "End Of Day Reports";
             string file_name = "EOD_" + DateTime.Now.ToString("ddMMyyyy") + "_transaction_history" + ".txt";
             string file_path = Path.Combine(path, file_name);
-            using (StreamWriter sw = new StreamWriter(file_path))
+            using (StreamWriter sw = File.CreateText(file_path))
             {
                 sw.WriteLine("End of Day Report");
                 sw.WriteLine("Date: " + DateTime.Now.ToString("dd/MM/yyyy"));
