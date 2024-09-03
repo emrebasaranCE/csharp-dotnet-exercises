@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspose.BarCode" Version="24.8.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
     <PackageReference Include="ZXing.Net" Version="0.16.9" />
   </ItemGroup>
 
