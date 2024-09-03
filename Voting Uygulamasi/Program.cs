@@ -6,7 +6,7 @@ namespace VotingApplication
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Welcome to the Voting Application!");
         }
     }
 }
