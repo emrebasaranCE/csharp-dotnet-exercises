@@ -10,6 +10,8 @@ namespace AtmApplication
     {
         static void Main(string[] args)
         {
+            Login_History login_History = new Login_History();
+            Transaction_History transaction_History = new Transaction_History();
             Console.WriteLine("Welcome to ATM Application");
             while (true)
             {
@@ -69,10 +71,9 @@ namespace AtmApplication
                         else if (user_choice == 5)
                         {
                             CreateDirectoryForEOD();
-                            Login_History login_History = new Login_History();
                             login_History.CreateEODReportForLoginHistory();
 
-                            Transaction_History transaction_History = new Transaction_History();
+
                             transaction_History.CreateEODReportForTransactions();
                         }
                         else
