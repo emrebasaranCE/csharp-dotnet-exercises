@@ -14,6 +14,7 @@ Sistemin bu işlevleri yerine getirme mantığı, her gruplama için farklı ola
 
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.
 
+![Animals_Class_Diagram](https://github.com/user-attachments/assets/03cdd0f1-2075-4174-aace-a4e8822da7c1)
 
 
 
