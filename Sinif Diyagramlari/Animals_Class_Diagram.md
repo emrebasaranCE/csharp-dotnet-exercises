@@ -3,6 +3,7 @@ Hayvan sinif diyagrami
 istenilenler:
 
 Hayvanlar:
+
 Atlar (atlar, zebralar, eşekler vb.),
 
 Kedigiller (kaplanlar, aslanlar vb.),
