@@ -13,3 +13,5 @@ Normal kullanıcılar ve aboneler film satın alabilirler.
 Eğer film mevcut değil ise talep edilebilir.
 
 Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.
+
+![OnlineMovieApp_Class_Diagram](https://github.com/user-attachments/assets/e2c86422-6058-4593-9f14-5fd14a43d76c)
