@@ -12,3 +12,5 @@ Hava yolu şirketlerinin pilotları vardır ve her pilotun bir deneyim seviyesi 
 Bir uçak tipi, belirli sayıda pilota ihtiyaç duyabilir.
 Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.
 
+![Airlines_Class_Diagram](https://github.com/user-attachments/assets/180061d8-aac9-4f65-b306-4acff71621a0)
+
