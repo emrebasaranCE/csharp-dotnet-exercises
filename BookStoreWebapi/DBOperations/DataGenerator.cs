@@ -18,7 +18,7 @@ namespace BookStoreWebapi.DBOperations
                 context.Books.AddRange(
                     new Book
                     {
-                        Id = 1,
+                        // Id = 1,
                         Title = "The Great Gatsby",
                         GenreId = 1,
                         PageCount = 180,
@@ -26,7 +26,7 @@ namespace BookStoreWebapi.DBOperations
                     },
                     new Book
                     {
-                        Id = 43,
+                        // Id = 43,
                         Title = "Sherlock Holmes",
                         GenreId = 1,
                         PageCount = 123,
@@ -34,9 +34,9 @@ namespace BookStoreWebapi.DBOperations
                     },
                     new Book
                     {
-                        Id = 3,
+                        // Id = 3,
                         Title = "Dune",
-                        GenreId = 1,
+                        GenreId = 2,
                         PageCount = 450,
                         PublishDate = new DateTime(2000, 12, 15)
                     });

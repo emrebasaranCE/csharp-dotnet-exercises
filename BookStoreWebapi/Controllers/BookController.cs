@@ -1,3 +1,4 @@
+using BookStoreWebapi.BookOperations.GetBooks;
 using BookStoreWebapi.DBOperations;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,10 +16,11 @@ namespace BookStoreWebapi.Controllers
         }
 
         [HttpGet]
-        public List<Book> GetBooks()
+        public IActionResult GetBooks()
         {
-            var bookslist = _context.Books.OrderBy(x => x.Id).ToList();
-            return bookslist;
+            GetBookQuery query = new GetBookQuery(_context);
+            var result = query.Handle();
+            return Ok(result);
         }
 
         [HttpGet("{id}")]
