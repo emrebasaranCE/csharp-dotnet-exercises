@@ -1,3 +1,4 @@
+using BookStoreWebapi.DBOperations;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreWebapi.Controllers
@@ -6,19 +7,24 @@ namespace BookStoreWebapi.Controllers
     [Route("[controller]s")]
     public class BookController : ControllerBase
     {
-        
+        private readonly BookStorageDBContext _context;
+
+        public BookController (BookStorageDBContext context)
+        {
+            _context = context;
+        }
 
         [HttpGet]
         public List<Book> GetBooks()
         {
-            var bookslist = BookList.OrderBy(x => x.Id).ToList();
+            var bookslist = _context.Books.OrderBy(x => x.Id).ToList();
             return bookslist;
         }
 
         [HttpGet("{id}")]
         public Book GetById(int id)
         {
-            var book = BookList.Where(book => book.Id == id).SingleOrDefault();
+            var book = _context.Books.Where(book => book.Id == id).SingleOrDefault();
             return book;
         }
 
@@ -33,11 +39,12 @@ namespace BookStoreWebapi.Controllers
         [HttpPost]
         public IActionResult AddBook([FromBody] Book newBook)
         {
-            var book = BookList.SingleOrDefault(x => x.Id == newBook.Id);
+            var book = _context.Books.SingleOrDefault(x => x.Id == newBook.Id);
             if (book is not null)
                 return BadRequest();
             
-            BookList.Add(newBook);
+            _context.Books.Add(newBook);
+            _context.SaveChanges();
             return Ok();
         }
 
@@ -46,7 +53,7 @@ namespace BookStoreWebapi.Controllers
 
         public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
         {
-            var book = BookList.SingleOrDefault(x => x.Id == id);
+            var book = _context.Books.SingleOrDefault(x => x.Id == id);
             if (book is null)
                 return BadRequest();
             
@@ -55,6 +62,7 @@ namespace BookStoreWebapi.Controllers
             book.PublishDate = updatedBook.PublishDate != default ? updatedBook.PublishDate : book.PublishDate;
             book.Title = updatedBook.Title != default ? updatedBook.Title : book.Title;
 
+            _context.SaveChanges();
             return Ok();
         }
 
@@ -64,12 +72,13 @@ namespace BookStoreWebapi.Controllers
 
         public IActionResult DeleteBook(int id)
         {
-            var book = BookList.SingleOrDefault(x => x.Id == id);
+            var book = _context.Books.SingleOrDefault(x => x.Id == id);
             
             if (book is null)
                 return BadRequest();
             
-            BookList.Remove(book);
+            _context.Books.Remove(book);
+            _context.SaveChanges();
             return Ok();
         }
     }
