@@ -1,3 +1,4 @@
+using BookStoreWebapi.BookOperations.CreateBook;
 using BookStoreWebapi.BookOperations.GetBooks;
 using BookStoreWebapi.DBOperations;
 using Microsoft.AspNetCore.Mvc;
@@ -39,14 +40,18 @@ namespace BookStoreWebapi.Controllers
 
         // Post
         [HttpPost]
-        public IActionResult AddBook([FromBody] Book newBook)
+        public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == newBook.Id);
-            if (book is not null)
-                return BadRequest();
-            
-            _context.Books.Add(newBook);
-            _context.SaveChanges();
+            CreateBookCommand command = new CreateBookCommand(_context);
+            try
+            {
+                command.model = newBook;
+                command.Handle();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return Ok();
         }
 
