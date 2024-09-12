@@ -1,4 +1,4 @@
-namespace Book
+namespace BookStoreWebapi
 {
     public class Book
     {
