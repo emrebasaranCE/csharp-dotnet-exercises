@@ -21,7 +21,7 @@ namespace Patika_Linq_Exercise_Repo.DBOperations
                     new Student()
                     {
                         Name = "Mehmet",
-                        Surname = "Cak",
+                        Surname = "Okyanus",
                         ClassId = 1
                     },
                     new Student()
