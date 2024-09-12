@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookStoreWebapi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]s")]
+    [Route("[controller]s")]
     public class BookController : ControllerBase
     {
         private static List<Book> BookList = new List<Book>()
@@ -16,7 +16,7 @@ namespace BookStoreWebapi.Controllers
                 PublishDate = new DateTime(1925, 4, 10)
             },
             new Book{
-                Id = 2,
+                Id = 43,
                 Title = "Sherlock Holmes",
                 GenreId = 1,
                 PageCount = 123,
@@ -38,5 +38,11 @@ namespace BookStoreWebapi.Controllers
             return bookslist;
         }
 
+        [HttpGet("{id}")]
+        public Book GetById(int id)
+        {
+            var book = BookList.Where(book => book.Id == id).SingleOrDefault();
+            return book;
+        }
     }
 }
