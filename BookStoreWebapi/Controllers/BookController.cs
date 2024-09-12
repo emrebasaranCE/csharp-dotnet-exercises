@@ -1,5 +1,7 @@
 using BookStoreWebapi.BookOperations.CreateBook;
+using BookStoreWebapi.BookOperations.DeleteBook;
 using BookStoreWebapi.BookOperations.GetBooks;
+using BookStoreWebapi.BookOperations.UpdateBook;
 using BookStoreWebapi.DBOperations;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,18 +27,19 @@ namespace BookStoreWebapi.Controllers
         }
 
         [HttpGet("{id}")]
-        public Book GetById(int id)
+        public IActionResult GetById(int id)
         {
-            var book = _context.Books.Where(book => book.Id == id).SingleOrDefault();
-            return book;
+            GetBookWithId command = new GetBookWithId(_context);
+            try
+            {
+                var result = command.Handle(id);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
-
-        // [HttpGet]
-        // public Book Get([FromQuery] string id)
-        // {
-        //     var book = BookList.Where(book => book.Id == Convert.ToInt16(id)).SingleOrDefault();
-        //     return book;
-        // }
 
         // Post
         [HttpPost]
@@ -58,18 +61,18 @@ namespace BookStoreWebapi.Controllers
         // Put
         [HttpPut("{id}")]
 
-        public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
+        public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel updatedBook)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == id);
-            if (book is null)
-                return BadRequest();
-            
-            book.GenreId = updatedBook.GenreId != default ? updatedBook.GenreId : book.GenreId;
-            book.PageCount = updatedBook.PageCount != default ? updatedBook.PageCount : book.PageCount;
-            book.PublishDate = updatedBook.PublishDate != default ? updatedBook.PublishDate : book.PublishDate;
-            book.Title = updatedBook.Title != default ? updatedBook.Title : book.Title;
-
-            _context.SaveChanges();
+            UpdateBookCommand command = new UpdateBookCommand(_context);
+            try
+            {
+                command.model = updatedBook;
+                command.Handle(id);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return Ok();
         }
 
@@ -79,13 +82,15 @@ namespace BookStoreWebapi.Controllers
 
         public IActionResult DeleteBook(int id)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == id);
-            
-            if (book is null)
-                return BadRequest();
-            
-            _context.Books.Remove(book);
-            _context.SaveChanges();
+            DeleteBookCommand command = new DeleteBookCommand(_context);
+            try
+            {
+                command.Handle(id);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return Ok();
         }
     }
