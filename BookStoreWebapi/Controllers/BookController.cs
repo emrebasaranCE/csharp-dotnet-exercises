@@ -38,7 +38,13 @@ namespace BookStoreWebapi.Controllers
             GetBookDetailQuery command = new GetBookDetailQuery(_context, _mapper);
             try
             {
-                var result = command.Handle(id);
+                command.Book_Id = id;
+
+                // Validator
+                GetBookDetailQueryValidator validator = new GetBookDetailQueryValidator();
+                validator.ValidateAndThrow(command);
+
+                var result = command.Handle();
                 return Ok(result);
             }
             catch (Exception ex)
