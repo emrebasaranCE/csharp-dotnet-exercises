@@ -4,31 +4,31 @@ using AutoMapper;
 using BookStoreWebapi.Common;
 using BookStoreWebapi.DBOperations;
 
-namespace BookStoreWebapi.BookOperations.GetBooks
+namespace BookStoreWebapi.BookOperations.GetBookDetail
 {
-    public class GetBookWithId
+    public class GetBookDetailQuery
     {
         private readonly BookStorageDBContext _dbcontext; 
         private readonly IMapper _mapper;
 
-        public GetBookWithId(BookStorageDBContext context, IMapper mapper)
+        public GetBookDetailQuery(BookStorageDBContext context, IMapper mapper)
         {
             _dbcontext = context;
             _mapper = mapper;
         }
 
-        public BooksViewModelWithId Handle(int id)
+        public BooksDetailedViewModel Handle(int id)
         {
             var book = _dbcontext.Books.Where(book => book.Id == id).SingleOrDefault();
             if (book is null)
                 throw new InvalidOperationException($"Book doesn't exists with this id: {id}!");
             
-            BooksViewModelWithId vm = _mapper.Map<BooksViewModelWithId>(book); 
+            BooksDetailedViewModel vm = _mapper.Map<BooksDetailedViewModel>(book); 
             return vm;
         }
     }
 
-    public class BooksViewModelWithId
+    public class BooksDetailedViewModel
     {
         public string Title { get; set; }
         public int PageCount { get; set; }

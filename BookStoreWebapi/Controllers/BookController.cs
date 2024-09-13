@@ -1,9 +1,12 @@
 using AutoMapper;
 using BookStoreWebapi.BookOperations.CreateBook;
 using BookStoreWebapi.BookOperations.DeleteBook;
+using BookStoreWebapi.BookOperations.GetBookDetail;
 using BookStoreWebapi.BookOperations.GetBooks;
 using BookStoreWebapi.BookOperations.UpdateBook;
 using BookStoreWebapi.DBOperations;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreWebapi.Controllers
@@ -32,7 +35,7 @@ namespace BookStoreWebapi.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            GetBookWithId command = new GetBookWithId(_context, _mapper);
+            GetBookDetailQuery command = new GetBookDetailQuery(_context, _mapper);
             try
             {
                 var result = command.Handle(id);
@@ -52,7 +55,14 @@ namespace BookStoreWebapi.Controllers
             try
             {
                 command.model = newBook;
+
+                // Validation
+                CreateBookCommandValidator validator = new CreateBookCommandValidator();
+                validator.ValidateAndThrow(command);
+
                 command.Handle();
+                
+                
             }
             catch (Exception ex)
             {

@@ -1,5 +1,6 @@
 using AutoMapper;
 using BookStoreWebapi.BookOperations.CreateBook;
+using BookStoreWebapi.BookOperations.GetBookDetail;
 using BookStoreWebapi.BookOperations.GetBooks;
 using BookStoreWebapi.BookOperations.UpdateBook;
 
@@ -13,7 +14,7 @@ namespace BookStoreWebapi.Common
             // map this = CreateBookModel to this => Book 
 
             //CreateMap<BooksViewModel, Book>();
-            CreateMap<Book, BooksViewModelWithId>().ForMember(dest => dest.Genre, opt => opt.MapFrom(src => ((GenreEnum)src.GenreId).ToString()));
+            CreateMap<Book, BooksDetailedViewModel>().ForMember(dest => dest.Genre, opt => opt.MapFrom(src => ((GenreEnum)src.GenreId).ToString()));
             CreateMap<UpdateBookModel, Book>();
 
             CreateMap<Book, BooksViewModel>().ForMember(dest => dest.Genre, opt => opt.MapFrom(src => ((GenreEnum)src.GenreId).ToString()));
