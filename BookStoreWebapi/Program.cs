@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using BookStoreWebapi.DBOperations;
+using System.Reflection;
 
 namespace BookStoreWebapi
 {
@@ -21,7 +22,7 @@ namespace BookStoreWebapi
             // Add DbContext with InMemory database or another database provider
             builder.Services.AddDbContext<BookStorageDBContext>(options =>
                 options.UseInMemoryDatabase("BookStoreDatabase")); // In-memory veritabanı kullanılıyor. Yerine SQL kullanabilirsiniz.
-
+            builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
             var app = builder.Build();
 
             // Initialize the database with data

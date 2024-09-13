@@ -1,5 +1,6 @@
 
 using System.Runtime.Intrinsics.X86;
+using AutoMapper;
 using BookStoreWebapi.Common;
 using BookStoreWebapi.DBOperations;
 
@@ -7,25 +8,22 @@ namespace BookStoreWebapi.BookOperations.GetBooks
 {
     public class GetBookWithId
     {
-        private readonly BookStorageDBContext _context; 
+        private readonly BookStorageDBContext _dbcontext; 
+        private readonly IMapper _mapper;
 
-        public GetBookWithId(BookStorageDBContext context)
+        public GetBookWithId(BookStorageDBContext context, IMapper mapper)
         {
-            _context = context;
+            _dbcontext = context;
+            _mapper = mapper;
         }
 
         public BooksViewModelWithId Handle(int id)
         {
-            var book = _context.Books.Where(book => book.Id == id).SingleOrDefault();
+            var book = _dbcontext.Books.Where(book => book.Id == id).SingleOrDefault();
             if (book is null)
                 throw new InvalidOperationException($"Book doesn't exists with this id: {id}!");
             
-            BooksViewModelWithId vm = new BooksViewModelWithId();
-            vm.Title = book.Title;
-            vm.PageCount = book.PageCount;
-            vm.PublishDate = book.PublishDate.Date.ToString("dd/mm/yyyy");
-            vm.Genre = ((GenreEnum)book.GenreId).ToString();
-
+            BooksViewModelWithId vm = _mapper.Map<BooksViewModelWithId>(book); 
             return vm;
         }
     }

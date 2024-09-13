@@ -8,16 +8,16 @@ namespace BookStoreWebapi.BookOperations.UpdateBook
     public class UpdateBookCommand
     {
         public UpdateBookModel model {get; set;}
-        private readonly BookStorageDBContext _context;
+        private readonly BookStorageDBContext _dbcontext;
 
         public UpdateBookCommand(BookStorageDBContext context)
         {
-            _context = context;
+            _dbcontext = context;
         }
 
         public void Handle(int id)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == id);
+            var book = _dbcontext.Books.SingleOrDefault(x => x.Id == id);
             if (book is null)
                 throw new InvalidOperationException($"Book doesn't exists with this id: {id}!");
             
@@ -26,7 +26,7 @@ namespace BookStoreWebapi.BookOperations.UpdateBook
             book.PublishDate = model.PublishDate != default ? model.PublishDate : book.PublishDate;
             book.Title = model.Title != default ? model.Title : book.Title;
 
-            _context.SaveChanges();
+            _dbcontext.SaveChanges();
         }
     }
 
