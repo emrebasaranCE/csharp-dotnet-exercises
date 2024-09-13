@@ -98,7 +98,13 @@ namespace BookStoreWebapi.Controllers
             DeleteBookCommand command = new DeleteBookCommand(_context);
             try
             {
-                command.Handle(id);
+                command.BookId = id;
+
+                // validation
+                DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
+                validator.ValidateAndThrow(command);
+
+                command.Handle();
             }
             catch (Exception ex)
             {
