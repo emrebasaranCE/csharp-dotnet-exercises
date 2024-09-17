@@ -5,6 +5,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using BookStoreWebapi.DBOperations;
 using System.Reflection;
+using BookStoreWebapi.Middlewares;
 
 namespace BookStoreWebapi
 {
@@ -46,6 +47,8 @@ namespace BookStoreWebapi
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.UseCustomExceptionMiddleware();
 
             app.Run();
         }
