@@ -86,7 +86,13 @@ namespace BookStoreWebapi.Controllers
             try
             {
                 command.model = updatedBook;
-                command.Handle(id);
+                command.BookId = id;
+
+                // Validator
+                UpdateBookCommandValidator validator = new UpdateBookCommandValidator();
+                validator.ValidateAndThrow(command);
+                
+                command.Handle();
             }
             catch (Exception ex)
             {
