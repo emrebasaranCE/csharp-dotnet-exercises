@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build: c#_projects.csproj",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"${workspaceFolder}/c#_projects.csproj"
+			],
+			"group": "build",
+			"detail": "Build the c#_projects.csproj project using dotnet build",
+			"problemMatcher": "$msCompile"
+		}
+	]
+}
