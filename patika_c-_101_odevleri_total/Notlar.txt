@@ -1,0 +1,9 @@
+.NEt platformda kullanıdığımız veri tipleri 2'ye ayrılır. Değer ve referans veri tipleridir. Değer tipleri belliğin stack bölgesinde tutulurken, Referans tipleri belleğin heap bölgesinde tutulur.
+
+	Değer Tipleri: int, long, float, double, decimal, char, bool, byte, short, struct, enum
+
+
+	Referans Tipleri: string, object, class, interface, array, delegate, pointer
+
+
+Stack ve Heap kavramlarından kısaca bahsetmek gerekirse, ram’in mantıksal bölümleridir diyebiliriz. Stack’de değer tipleri, pointer ve adresler saklanırken, Heap’de ise referans değerleri saklanmaktadır.
