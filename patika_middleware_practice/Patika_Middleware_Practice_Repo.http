@@ -1,0 +1,6 @@
+@Patika_Middleware_Practice_Repo_HostAddress = http://localhost:5236
+
+GET {{Patika_Middleware_Practice_Repo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
