@@ -1,0 +1,15 @@
+d:\Patika.dev_C#\proje_to_do\bin\Debug\net8.0\proje_to_do.exe
+d:\Patika.dev_C#\proje_to_do\bin\Debug\net8.0\proje_to_do.deps.json
+d:\Patika.dev_C#\proje_to_do\bin\Debug\net8.0\proje_to_do.runtimeconfig.json
+d:\Patika.dev_C#\proje_to_do\bin\Debug\net8.0\proje_to_do.dll
+d:\Patika.dev_C#\proje_to_do\bin\Debug\net8.0\proje_to_do.pdb
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.GeneratedMSBuildEditorConfig.editorconfig
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.AssemblyInfoInputs.cache
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.AssemblyInfo.cs
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.csproj.CoreCompileInputs.cache
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.sourcelink.json
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.dll
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\refint\proje_to_do.dll
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.pdb
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\proje_to_do.genruntimeconfig.cache
+d:\Patika.dev_C#\proje_to_do\obj\Debug\net8.0\ref\proje_to_do.dll
