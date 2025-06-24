@@ -1,1 +1,3 @@
-"# c-_example_projects" 
+# C# Example Projects
+
+A collection of small C# examples.
